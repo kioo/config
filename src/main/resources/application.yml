@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/kioo/config-repo.git
+          username: f2114198@163.com
+          password: 5218791github
+          basedir: C:\ideaworkspace\configgit
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
