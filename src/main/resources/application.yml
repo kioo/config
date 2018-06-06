@@ -9,6 +9,11 @@ spring:
           username: f2114198@163.com
           password: 5218791github
           basedir: C:\ideaworkspace\configgit
+  rabbitmq:
+    host: 192.168.88.134
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     service-url:
